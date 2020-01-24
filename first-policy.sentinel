@@ -1,4 +1,4 @@
-~import "tfplan"
+import "tfplan"
 
 main = rule {
   all tfplan.resources.azurerm_virtual_machine as _, instances {
